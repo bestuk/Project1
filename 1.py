@@ -1,4 +1,6 @@
 import os
+from typing import Tuple
+
 from numpy import random
 
 os.system('cls')
@@ -178,11 +180,41 @@ print(
 print('hello-git \n')
 
 a = [1, 2, 3, 4]
+print(a)
 b = a.copy()
 c = list(a)
 d = a[:]
 a[0] = 'kuku'
 print(
-    '{0}\n{1}\n{2}\n{3}'.format(str(a), str(b), str(c), str(d))
-
+    '{0}\n{1}\n{2}\n{3}\n{4}'.format(str(a), str(b), str(c), str(d), str(marxes))
 )
+
+########################corteges
+print(
+    '#########################################corteges###############################\n\n'
+)
+
+ecortege = ()
+print(ecortege)
+
+tpl1 = ('odin', 'dva', 'tris')
+
+print(
+    "{}\n{}\n ".format(str(tpl1), str(type(tpl1))))
+
+a, b, c = tpl1
+
+
+
+print(
+    '{},{},{}'.format(str(a), str(b), str(c))
+      )
+
+marx_list = ['Groucho', 'Chico', 'Harpo']
+#convert list to tuple
+qq=tuple(marx_list)
+
+print(
+    '{},\n{},'.format(str(marx_list), str(qq))
+      )
+
