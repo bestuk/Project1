@@ -55,7 +55,7 @@ print(
 print(
     'marxes.pop(0) is = '
     + str(marxes.pop(0))
-    + "\n" 
+    + "\n"
     + str(marxes)
     + "\nДлина списка: "
     + str(len(marxes))
@@ -175,5 +175,14 @@ print(
     + str(marxes_from_str)
 )
 
+print('hello-git \n')
 
-print('hello-git')
+a = [1, 2, 3, 4]
+b = a.copy()
+c = list(a)
+d = a[:]
+a[0] = 'kuku'
+print(
+    '{0}\n{1}\n{2}\n{3}'.format(str(a), str(b), str(c), str(d))
+
+)
